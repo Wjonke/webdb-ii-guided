@@ -3,7 +3,7 @@ const knex = require('knex');
 
 /////this is where we connect to the database//////
 //import the knex file and select the environment config, in this case its just development
-const knexConfig = require('./knexfile.js')
+const knexConfig = require('../knexfile.js')
 
 
 const db = knex(knexConfig.development);
